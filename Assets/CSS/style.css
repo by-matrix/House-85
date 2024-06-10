@@ -79,6 +79,21 @@ nav {
     line-height: 4vw;
 }
 
+table{
+    border: 2px solid black;
+    width: 96%;
+    text-align: center;
+    margin: 20px;
+    margin-right: 40px;
+}
+
+table, th, td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    font-size: 1.4vw;
+}
+
 footer {
     display: flex;
     align-items: center;
