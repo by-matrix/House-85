@@ -50,13 +50,17 @@ nav {
 .group1, .group2, .group3 {
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: space-around;
     background-color: #b2b2b2;
     width: 100%;
     height: 400px;
     border-bottom: 2px solid black;
 }
 
+.space {
+    height: 200px;
+    width: 100%;
+}
 .G1 {
     background-color: #FDFFE2;
     margin: 3vw;
@@ -106,14 +110,14 @@ footer {
     nav {
         flex-direction: column;
     }
-    .G1 ul ol {
+    .G1 ul {
         font-size: 4vw;
         line-height: 5vw;
     }
 }
 
 @media (max-width: 600px) {
-    .G1 ul ol {
+    .G1 ul {
         font-size: 5vw;
         line-height: 6vw;
     }
